@@ -1,7 +1,7 @@
-Juypter Notebooks (IPython)
+Jupyter Notebooks (IPython)
 ###########################
 
-If you want to run a Jupyter notebook with all the setup a script has (named contracts, ``sys.path`` adjustments, etc), you can use the following code:
+If you want to run a Jupyter notebook with all the setup a script has (named contracts, ``sys.path`` adjustments, etc.), you can use the following code:
 
 .. code-block:: python
 
@@ -11,7 +11,7 @@ If you want to run a Jupyter notebook with all the setup a script has (named con
 
 Then, you can work with the notebook as you would normally.
 
-.. code-block:: python 
+.. code-block:: python
 
     from moccasin.config import get_active_network
 

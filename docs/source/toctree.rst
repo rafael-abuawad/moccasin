@@ -38,7 +38,7 @@ Moccasin
     Format Code <how-tos/code_formatting.rst>
     Stateless Fuzzing <how-tos/stateless_fuzzing.rst>
     Stateful Fuzzing <how-tos/stateful_fuzzing.rst>
-    how-tos/juypter_notebooks.rst
+    how-tos/jupyter_notebooks.rst
     Pass Compiler Args through the CLI <how-tos/compiler_args_to_cli.rst>
     
 

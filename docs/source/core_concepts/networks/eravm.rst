@@ -3,7 +3,7 @@ eravm
 
 The `ZKsync era network <https://zksync.io/>`_ comes with built-in support in ``moccasin``.
 
-This is a built-in network that comes with `titanoboa-zksync <https://github.com/vyperlang/titanoboa-zksyncl>`_. In order to get setup with working with ``eravm``, be sure to follow the :doc:`/tutorials/zksync-getting-started`.
+This is a built-in network that comes with `titanoboa-zksync <https://github.com/vyperlang/titanoboa-zksync>`_. To set up ``eravm``, follow the :doc:`/tutorials/zksync-getting-started`.
 
 The ``eravm`` is one of the two "local" network environments (along with :doc:`pyevm`). 
 

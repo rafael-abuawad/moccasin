@@ -34,7 +34,7 @@ If any new functionality was added or changed, were tests included?
 
 ## Platform/Environment Tested
 
-- [ ] Linux/macOS
+- [ ] Linux / macOS
 - [ ] Dev Container (VSCode)
 - [ ] Other:
 

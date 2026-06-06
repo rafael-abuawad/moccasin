@@ -2,7 +2,7 @@
 
 <p align="center">
     <br />
-        <img src="./docs/source/_static/gh_banner.png" width="100%" alt=""/></a>
+        <img src="./docs/source/_static/gh_banner.png" width="100%" alt=""/>
     <br />
 </p>
 

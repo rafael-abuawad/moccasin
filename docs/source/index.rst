@@ -46,7 +46,7 @@ Moccasin is a fast, pythonic smart contract development framework heavily powere
 How to read the documentation
 =============================
 
-The moccasin documentation is written in a way that assumes you are on a MacOS or Linux-like system. If you are using Windows, we recommend you watch the first `10 minutes of this WSL tutorial <https://www.youtube.com/watch?v=xqUZ4JqHI_8>`_ and work with WSL. WSL stands for "Windows Subsystem for Linux" and it allows you to run a Linux commands on Windows machine.
+The moccasin documentation assumes macOS or a Linux-like system. If you use Windows, we recommend watching the first `10 minutes of this WSL tutorial <https://www.youtube.com/watch?v=xqUZ4JqHI_8>`_ and working in WSL (Windows Subsystem for Linux), which lets you run Linux commands on your Windows machine.
 
 
 TOML Formatting

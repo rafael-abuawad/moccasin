@@ -12,7 +12,7 @@ To get started with ZKsync on ``moccasin``, you'll need the following:
 
 - `era-compiler-vyper <https://github.com/matter-labs/era-compiler-vyper>`_
 
-  - You'll know you did it right if you can run ``zkvyper --version`` and you see a response like ``Vyper compiler for ZKync v1.5.4 (LLVM build f9f732c8ebdb88fb8cd4528482a00e4f65bcb8b7)``
+  - You'll know you did it right if you can run ``zkvyper --version`` and you see a response like ``Vyper compiler for ZKsync v1.5.4 (LLVM build f9f732c8ebdb88fb8cd4528482a00e4f65bcb8b7)``
 
 Testing 
 =======
