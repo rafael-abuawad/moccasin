@@ -17,7 +17,7 @@ A typical moccasin project is structured as follows:
 Where:
 
 - ``README.md`` is a markdown file that you can use to describe your project.
-- ``lib/`` is a directory that contains :doc:`moccasin depedencies <dependencies>` that you can use inside your contracts.
+- ``lib/`` is a directory that contains :doc:`moccasin dependencies <dependencies>` that you can use inside your contracts.
 - ``moccasin.toml`` is a configuration file that ``moccasin`` uses to manage the project.
 - ``script`` is a directory that contains python scripts that you can use to deploy your project.
 - ``src``` is a directory that contains your vyper smart contracts.

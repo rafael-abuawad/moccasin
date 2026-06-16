@@ -185,7 +185,7 @@ anvil-zksync.log
 .DS_Store
 """
 
-COUNTER_VYPER_CONTRACT_SRC = """# pragma version ^0.4.1
+COUNTER_VYPER_CONTRACT_SRC = """# pragma version ~=0.4.3
 # @license MIT
 
 number: public(uint256)

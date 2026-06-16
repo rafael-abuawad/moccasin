@@ -33,7 +33,7 @@ Prerequisites
 Installation with uv
 ====================
 
-For those unfamiliar, `uv <https://docs.astral.sh/uv/>`_ is a fast python package manager that helps us install moccasin into it's own isolated virtual environment, so we don't get any weird dependency conflicts with other python packages. It's similar to ``pip`` and ``pipx`` if you've used them before. It even comes with some ``pip`` compatibility, will tools like ``uv pip install``.
+For those unfamiliar, `uv <https://docs.astral.sh/uv/>`_ is a fast Python package manager that helps us install moccasin into its own isolated virtual environment, so we don't get any weird dependency conflicts with other Python packages. It's similar to ``pip`` and ``pipx`` if you've used them before. It even comes with some ``pip`` compatibility, with tools like ``uv pip install``.
 
 It's highly recommended you understand how `virtual environments <https://docs.python.org/3/library/venv.html>`_ work as well. 
 
@@ -41,7 +41,7 @@ The easiest way to install ``uv`` is:
 
 .. tabs::
 
-    .. code-tab:: bash linux / MacOS
+    .. code-tab:: bash linux / macOS
 
         curl -LsSf https://astral.sh/uv/install.sh | sh
 
@@ -51,7 +51,7 @@ The easiest way to install ``uv`` is:
 
         .. note:: 
 
-            ⚠️ Windows users: We recommend you watch the first `10 minutes of this WSL tutorial <https://www.youtube.com/watch?v=xqUZ4JqHI_8>`_ and install and work with WSL. WSL stands for "Windows Subsystem for Linux" and it allows you to run a Linux commands on Windows machine. If you're working on WSL, you can just use the ``linux / MacOS`` command from the other tab.
+            ⚠️ Windows users: We recommend watching the first `10 minutes of this WSL tutorial <https://www.youtube.com/watch?v=xqUZ4JqHI_8>`_ and working in WSL (Windows Subsystem for Linux), which lets you run Linux commands on your Windows machine. If you're working in WSL, use the ``linux / macOS`` command from the other tab.
 
 But you can head over to the `uv installation instructions <https://docs.astral.sh/uv/getting-started/installation/>`_ for more options. If you don't have at least Python 3.11 installed, you'll need to install that first.
 
@@ -156,9 +156,9 @@ Then, go to :ref:`after installation <after_install>`.
 Installation with poetry
 ========================
 
-Poetry is depedency management tool in Python. It allows to install/update libraries from your project, and also handle Python packaging.
+Poetry is a dependency management tool in Python. It lets you install and update libraries for your project and handles Python packaging.
 
-``poetry`` installs dependencies into its default virtual environment ``{cache-dir}/virtualenvs`` related to the intialized project. See how `poetry virtual environment <https://python-poetry.org/docs/basic-usage/#using-your-virtual-environment>`_ works.
+``poetry`` installs dependencies into its default virtual environment ``{cache-dir}/virtualenvs`` related to the initialized project. See how `poetry virtual environment <https://python-poetry.org/docs/basic-usage/#using-your-virtual-environment>`_ works.
 
 You can install Moccasin with ``poetry``, and if you do so, it's highly recommended you understand how `virtual environments <https://docs.python.org/3/library/venv.html>`_ work. 
 
@@ -181,7 +181,7 @@ Ensure ``poetry`` is available:
     poetry --version 
     # Poetry (version 2.0.1)
 
-We'll need to initialize a ``poetry`` project to use its dedicated virtual enviroment to add Moccasin:
+We'll need to initialize a ``poetry`` project to use its dedicated virtual environment to add Moccasin:
 
 .. code-block:: bash
 

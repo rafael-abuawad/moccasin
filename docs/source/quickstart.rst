@@ -56,7 +56,7 @@ Let's check out the files and folders ``moccasin`` has created:
 
 .. note::
 
-    MacOS users may need to install ``tree`` with ``brew install tree``. You can of course, just not install tree and skip this ``tree`` command.
+    macOS users may need to install ``tree`` with ``brew install tree``. You can also skip installing ``tree`` and omit this command.
 
 Run the following commands:
 

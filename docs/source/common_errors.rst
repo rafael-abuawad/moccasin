@@ -1,8 +1,6 @@
 Common Errors
 =============
 
-----
-
 Value Error: Account Not Defined
 --------------------------------
 
@@ -64,7 +62,7 @@ AssertionError: Bytecode Length (ZKsync)
 
 This error occurs when you try to deploy a contract on ZKsync and it might not be related to the feedback from the compiler.
 Usually, it is because ``moccasin`` installed with ``uv tool`` comes with its own dependencies installed by default to the latest version.
-Therefore, if you use ``mox`` from the tool, it will try to deploy with its own ``vyper`` depedency. 
+Therefore, if you use ``mox`` from the tool, it will try to deploy with its own ``vyper`` dependency. 
 
 To fix this, you need to add ``moccasin`` to your project's virtual environment and install the dependencies there.
 You can do this by running the following command in your project directory:
